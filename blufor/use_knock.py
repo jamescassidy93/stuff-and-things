@@ -13,7 +13,7 @@ def main():
     seq = sys.argv[2:]
     s = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
     for port in seq:
-        s.sendto('',(ip,int(port)))
+        s.sendto(''.encode(),(ip,int(port)))
         time.sleep(.2)
     print("Knock sequence complete. You can try to login now.")
 
