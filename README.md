@@ -4,7 +4,8 @@ were developed as a means to a functionality. As such, they are very break-fixy 
 'production quality.' Nevertheless, they are there to help out with small stuff.  
 
 ## Getting started
-For the most part, these scripts are all written and tested on a mid-2015 MacBook Air running macOS 10.13 and using Python 2.7.13 as the interpreter. Nothing special is necessary outside of the packages listed in the requirements.txt.
+For the most part, these scripts are all written and tested on a mid-2015 MacBook Air running macOS 10.13 and using  
+Python 2.7.13 as the interpreter. Nothing special is necessary outside of the packages listed in the requirements.txt.
 
 ## Project Structure
 Currently, the directory has two main subdirectories. They are:

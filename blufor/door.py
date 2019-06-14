@@ -1,13 +1,7 @@
-import sys
-import os
-import time
 import datetime
-import threading
+import optparse
 import signal
 import OpenSSL
-import socket
-import optparse
-
 from scapy.all import *
 
 SERV_IP = '127.0.0.1'
@@ -21,7 +15,7 @@ def usage():
 
 def log(message):
     log = open("door.log","a+")
-    log.write("[" + str(datetime.datetime.now()) + "] "+message+'\n')
+    log.write("[" + str(datetime.now()) + "] "+message+'\n')
     log.close()
 
 def check_seq(seq):
