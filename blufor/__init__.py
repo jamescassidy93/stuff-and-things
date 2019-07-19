@@ -1,1 +1,1 @@
-import door
+from .door import *

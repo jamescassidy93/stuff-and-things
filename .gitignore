@@ -1,3 +1,7 @@
 .idea
 .DS_Store
 venv/
+door.log
+*/door.log
+*_coords.txt
+*/*_coords.txt
